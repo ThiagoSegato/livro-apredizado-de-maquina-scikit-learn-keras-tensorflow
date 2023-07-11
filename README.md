@@ -16,7 +16,7 @@ Atributos numéricos. Valores ausentes. Especifica o que deseja substituir das a
 Atributos categóricos. Converte na forma ordinal (0,1,2...) as categorias.
 <br>
 - .preprocessing.OneHotEncoder()<br>
-Atributos categóricos. Converte em um array esparso com todas as posições zeradas `[0,0,0,1,0]`, mas somente uma fica ligada.
+Atributos categóricos. Converte em um array esparso com posições zeradas, com somente uma fica ligada.
 <br>
 - .preprocessing.StandardScaler()<br>
 Atributos numéricos. Escalona um atributo padronizando em um intervalo baseado na média e desvio padrão.
